@@ -935,7 +935,7 @@ function MainContent({ userName }: { userName: string }) {
 
           <motion.div variants={FADE_UP} className="flex flex-col items-center justify-center relative z-10 mb-8 w-full max-w-md">
             {/* The Awwwards T.H.R Button linking to WA */}
-            <THRButton phone="6281234567890" />
+            <THRButton phone="6282220605328" />
             
             <span className="mt-8 font-mono text-[11px] md:text-[12px] uppercase tracking-widest text-[#d4af37]/50 flex items-center gap-2">
               Claim Now • Limited Availability
@@ -962,7 +962,7 @@ function MainContent({ userName }: { userName: string }) {
 }
 
 function THRButton({ phone }: { phone: string }) {
-  const message = "Hello, I would like to claim the Special Edition THR! 🎉";
+  const message = "Thr nya banggg";
   const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
   return (
